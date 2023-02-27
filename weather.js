@@ -8,7 +8,7 @@ function displayData(cityData){
 
 cityName=cityData.name
 humid=cityData.main.humidity
-temperature=((cityData.main.temp)-273.15).toFixed()
+temperature= ((cityData.main.temp) -273.15).toFixed()
 windspeed=cityData.wind.speed
 condition=cityData.weather[0].description
 var today=new Date();
